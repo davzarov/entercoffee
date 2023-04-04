@@ -30,8 +30,8 @@ export const heroData = {
   preTitle: "Tu espacio de trabajo",
   title: "Enter Coffee",
   subTitle:
-    "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ",
-  btnText: "Sepa más",
+    "Bienvenido a nuestro espacio de coworking y cafetería, donde el trabajo se encuentra con la comodidad y la creatividad. Nuestro espacio está diseñado para satisfacer todas tus necesidades profesionales, ya seas un freelancer, empresario o dueño de un pequeño negocio.",
+  btnText: "sepa más",
 };
 
 export const socialData = [
@@ -41,10 +41,10 @@ export const socialData = [
 ];
 
 export const aboutData = {
-  preTitle: "nuestra historia",
+  preTitle: "Enter Coffee",
   title: "quiénes somos",
   subTitle:
-    "Enter Coffee es una cafetería coworking - ¡un buen lugar para que trabajes en una experiencia de cafetería! Ven a tomar un café mientras trabajas con nosotros.",
+    "Enter Coffee es una cafetería coworking donde tendrás todo lo que necesitas para hacer tu trabajo. Disponemos de internet de alta velocidad, salas de reuniones privadas y facilidades de impresión. Pero eso no es todo. Nuestra cafetería ofrece delicioso café, bebidas refrescantes y sabrosos snacks para alimentar tu cerebro y mantenerte en movimiento durante todo el día. ¿Necesitas un descanso del trabajo? Relájate en nuestra acogedora zona de asientos, ponerte al día con amigos o establece contactos con profesionales con ideas afines.",
   btnText: "más información",
   image: AboutImg,
 };
@@ -53,7 +53,7 @@ export const menuData = {
   title: "delicioso sabor a otoño",
   subTitle: "ver todo el menú para una comida sabrosa hoy",
   modelImg: ModelWhiteImg,
-  btnText: "ver el menú completo",
+  btnText: "ver menú completo",
   menuItems: [
     {
       image: MenuImg1,
@@ -133,7 +133,7 @@ export const reservationData = {
 export const newsletterData = {
   title: "únete a nuestro boletín",
   subTitle: "recibe noticias y actualizaciones en tu bandeja de entrada.",
-  placeholder: "suscríbase a nuestros deliciosos platos",
+  placeholder: "suscríbase con su correo electrónico",
   btnText: "suscribirse",
 };
 
