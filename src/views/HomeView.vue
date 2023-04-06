@@ -12,14 +12,16 @@ onErrorCaptured((e) => {
 </script>
 
 <template>
-  <Transition>
-    <Suspense>
-      <Sections />
-      <template #fallback>
-        <LoadingView />
-      </template>
-    </Suspense>
-  </Transition>
+  <div>
+    <Transition>
+      <Suspense>
+        <Sections />
+        <template #fallback>
+          <LoadingView />
+        </template>
+      </Suspense>
+    </Transition>
+  </div>
 </template>
 
 <style>

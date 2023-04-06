@@ -36,13 +36,13 @@ watchEffect(() => {
         </div>
         <!-- logo -->
         <div class="order-1 lg:order-none lg:ml-[11rem]">
-          <a href="#">
+          <RouterLink :to="{ name: 'dashboard' }">
             <img
               :class="[isActive ? 'h-[90px] w-[90px]' : 'h-[107px] w-[107px]']"
               :src="EnterCoffeeLogo"
               alt="logo"
             />
-          </a>
+          </RouterLink>
         </div>
         <!-- social icons -->
         <div class="hidden lg:flex">

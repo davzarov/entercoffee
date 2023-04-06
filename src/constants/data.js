@@ -166,3 +166,5 @@ export const footerData = {
     ],
   },
 };
+
+export { ModelBlackImg, ModelWhiteImg };

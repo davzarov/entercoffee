@@ -1,5 +1,4 @@
 <script setup>
-import { fadeIn } from "../../animations";
 import { teamData } from "../../constants/data";
 
 const { preTitle, title, sub1, sub2, name, occupation, signatureImg, chefImg } =
@@ -14,13 +13,7 @@ const { preTitle, title, sub1, sub2, name, occupation, signatureImg, chefImg } =
         class="flex flex-col items-center lg:flex-row lg:items-start lg:gap-x-[120px]"
       >
         <!-- text -->
-        <div
-          v-motion
-          :variants="fadeIn('down', 'tween', 0.6, 1.6)"
-          initial="hidden"
-          visible="show"
-          class="flex-1 text-center lg:pt-16 lg:text-left"
-        >
+        <div class="flex-1 text-center lg:pt-16 lg:text-left">
           <div className="pretitle">{{ preTitle }}</div>
           <h2 className="h2 capitalize">{{ title }}</h2>
           <p className="mb-[60px]">{{ sub1 }}</p>
@@ -38,13 +31,7 @@ const { preTitle, title, sub1, sub2, name, occupation, signatureImg, chefImg } =
           </div>
         </div>
         <!-- image -->
-        <div
-          v-motion
-          :variants="fadeIn('up', 'tween', 0.7, 1.6)"
-          initial="hidden"
-          visible="show"
-          class="flex-1"
-        >
+        <div class="flex-1">
           <img :src="chefImg" alt="chef-img" />
         </div>
       </div>

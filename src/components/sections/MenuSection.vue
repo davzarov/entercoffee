@@ -1,5 +1,4 @@
 <script setup>
-import { fadeIn, staggerContainer } from "../../animations";
 import { menuData } from "../../constants/data";
 
 const { title, subTitle, modelImg, menuItems, btnText } = menuData;
