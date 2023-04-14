@@ -14,7 +14,7 @@ const startTime = ref({
 </script>
 
 <template>
-  <section class="relative top-96 z-30 pb-20 lg:py-[100px]">
+  <section id="reservas" class="relative top-96 z-30 pb-20 lg:py-[100px]">
     <div class="container mx-auto">
       <!-- text -->
       <div class="text-center">

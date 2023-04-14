@@ -10,6 +10,7 @@ const { contact, hours, social } = footerData;
 
 <template>
   <footer
+    id="contacto"
     class="relative top-96 z-20 bg-dark pt-20 lg:min-h-[620px] lg:bg-transparent lg:bg-footer lg:bg-center lg:bg-no-repeat lg:pt-32"
   >
     <div class="container mx-auto h-full">

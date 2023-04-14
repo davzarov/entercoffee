@@ -5,7 +5,7 @@ const { title, subTitle, modelImg, menuItems, btnText } = menuData;
 </script>
 
 <template>
-  <section class="min-h-[780px]">
+  <section id="menu" class="min-h-[780px]">
     <!-- background -->
     <div class="absolute -z-0 h-[780px] w-full max-w-[1800px] bg-menu"></div>
     <!-- text -->

@@ -5,7 +5,7 @@ const { preTitle, title, subTitle, btnText, image } = aboutData;
 </script>
 
 <template>
-  <section class="min-h-[620px]">
+  <section id="nosotros" class="min-h-[620px]">
     <div class="container mx-auto min-h-[620px]">
       <!-- text & image wrapper -->
       <div class="flex min-h-[620px] flex-col items-center lg:flex-row">

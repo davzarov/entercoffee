@@ -6,7 +6,10 @@ const { preTitle, title, sub1, sub2, name, occupation, signatureImg, chefImg } =
 </script>
 
 <template>
-  <section class="relative top-96 z-10 min-h-[720px] lg:top-[480px]">
+  <section
+    id="equipo"
+    class="relative top-96 z-10 min-h-[720px] lg:top-[480px]"
+  >
     <div class="container mx-auto">
       <!-- text & image wrapper -->
       <div

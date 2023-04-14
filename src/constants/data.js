@@ -17,13 +17,12 @@ import Avatar2 from "../assets/img/testimonial/avatar2.png";
 import Avatar3 from "../assets/img/testimonial/avatar3.png";
 
 export const navData = [
-  { href: "/", name: "inicio" },
-  { href: "/", name: "nosotros" },
-  { href: "/", name: "menu" },
-  { href: "/", name: "equipo" },
-  // { href: "/", name: "testimonials" },
-  { href: "/", name: "reservas" },
-  { href: "/", name: "contacto" },
+  { id: "inicio", name: "inicio" },
+  { id: "nosotros", name: "nosotros" },
+  { id: "menu", name: "menu" },
+  { id: "equipo", name: "equipo" },
+  { id: "reservas", name: "reservas" },
+  { id: "contacto", name: "contacto" },
 ];
 
 export const heroData = {
@@ -33,12 +32,6 @@ export const heroData = {
     "Bienvenido a nuestro espacio de coworking y cafetería, donde el trabajo se encuentra con la comodidad y la creatividad. Nuestro espacio está diseñado para satisfacer todas tus necesidades profesionales, ya seas un freelancer, empresario o dueño de un pequeño negocio.",
   btnText: "sepa más",
 };
-
-export const socialData = [
-  { href: "/", icon: "youtube" },
-  { href: "/", icon: "facebook" },
-  { href: "/", icon: "instagram" },
-];
 
 export const aboutData = {
   preTitle: "Enter Coffee",

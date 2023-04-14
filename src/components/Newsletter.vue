@@ -17,7 +17,10 @@ const { title, subTitle, btnText, placeholder } = newsletterData;
         <p>{{ subTitle }}</p>
       </div>
       <!-- form -->
-      <form class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-[10px]">
+      <form
+        @submit.prevent="() => {}"
+        class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-[10px]"
+      >
         <input
           class="input border border-white/20 bg-transparent text-white transition-all placeholder:font-light placeholder:text-white/20 focus:ring-1 focus:ring-accent"
           type="text"
