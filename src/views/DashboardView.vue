@@ -39,6 +39,51 @@ const flights = [
     remarks: "DELAYED",
   },
 ];
+
+const newFlights = [
+  {
+    name: "Sarah",
+    table: "Grand View",
+    time: "13:43",
+    seat: "01",
+    date: "21-06-2011",
+  },
+  {
+    name: "Jessica",
+    table: "Hazel",
+    time: "16:15",
+    seat: "02",
+    date: "28-06-2017",
+  },
+  {
+    name: "Jose",
+    table: "Woodville",
+    time: "09:41",
+    seat: "03",
+    date: "25-03-2020",
+  },
+  {
+    name: "Haley",
+    table: "Hakalau",
+    time: "08:48",
+    seat: "04",
+    date: "19-04-2015",
+  },
+  {
+    name: "Timothy",
+    table: "Frankfort",
+    time: "11:08",
+    seat: "05",
+    date: "29-09-2012",
+  },
+  {
+    name: "Nathan",
+    table: "Lewiston",
+    time: "17:45",
+    seat: "06",
+    date: "31-12-2021",
+  },
+];
 </script>
 
 <template>
@@ -54,7 +99,7 @@ const flights = [
           Tablero de próximas salidas
         </caption>
         <TableHead />
-        <TableBody :flights="flights" />
+        <TableBody :flights="newFlights" />
       </table>
       <RouterLink class="btn mx-auto" :to="{ name: 'home' }"
         >Volver al inicio</RouterLink

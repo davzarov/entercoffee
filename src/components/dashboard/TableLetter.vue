@@ -12,7 +12,7 @@ setTimeout(() => {
 <template>
   <div
     :class="[
-      'float-left h-[40px] min-w-[20px] border-2 border-solid border-accent bg-dark text-white',
+      'float-left h-[40px] min-w-[20px] border-2 border-solid border-accent bg-dark text-accent',
       flip ? 'flip' : null,
     ]"
   >
