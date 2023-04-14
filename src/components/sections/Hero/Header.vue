@@ -1,9 +1,9 @@
 <script setup>
 import { ref, watchEffect } from "vue";
 
-import NavMenu from "./NavMenu.vue";
-import SocialIcons from "./SocialIcons.vue";
-import EnterCoffeeLogo from "../assets/img/header/entercoffee-logo-color.png";
+import Nav from "./Nav.vue";
+import Social from "../Social.vue";
+import { EnterCoffeeLogo } from "@/constants/data";
 
 const isScrolled = ref(false);
 const open = ref(false);
@@ -54,7 +54,7 @@ watchEffect(() => {
         </div>
         <!-- social icons -->
         <div class="hidden lg:flex">
-          <SocialIcons />
+          <Social />
         </div>
         <!-- nav -->
         <div
@@ -63,7 +63,7 @@ watchEffect(() => {
             'absolute bottom-0 right-0 top-[120px] z-50 h-[50vh] w-[310px] rounded-lg bg-accent shadow-xl lg:left-0',
           ]"
         >
-          <NavMenu v-if="open" />
+          <Nav v-if="open" />
         </div>
       </div>
     </div>

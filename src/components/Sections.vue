@@ -1,10 +1,10 @@
 <script setup>
-import HeroSection from "./sections/HeroSection.vue";
-import AboutSection from "./sections/AboutSection.vue";
-import MenuSection from "./sections/MenuSection.vue";
-import TeamSection from "./sections/TeamSection.vue";
-import ReservationSection from "./sections/ReservationSection.vue";
-import FooterSection from "./sections/FooterSection.vue";
+import Hero from "./sections/Hero/Hero.vue";
+import About from "./sections/About.vue";
+import Menu from "./sections/Menu.vue";
+import Team from "./sections/Team.vue";
+import Reservation from "./sections/Reservation.vue";
+import Footer from "./sections/Footer/Footer.vue";
 
 const initialLoading = async () => {
   await new Promise((resolve) => {
@@ -18,12 +18,12 @@ await initialLoading();
 
 <template>
   <div class="mx-auto h-full max-w-[1800px] overflow-hidden">
-    <HeroSection />
-    <AboutSection />
-    <MenuSection />
-    <TeamSection />
-    <ReservationSection />
-    <FooterSection />
+    <Hero />
+    <About />
+    <Menu />
+    <Team />
+    <Reservation />
+    <Footer />
     <div class="h-[380px] md:h-[370px]"></div>
   </div>
 </template>

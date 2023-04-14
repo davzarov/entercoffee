@@ -1,7 +1,7 @@
 <script setup>
 import gsap from "gsap";
-import { navData } from "../constants/data";
-import { navigateTo } from "../utils/navigateTo";
+import { navData } from "../../../constants/data";
+import { navigateTo } from "../../../utils/navigateTo";
 
 const onBeforeEnter = (el) => {
   el.style.opacity = 0;

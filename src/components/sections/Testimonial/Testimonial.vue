@@ -1,5 +1,5 @@
 <script setup>
-import { testimonialData } from "../../constants/data";
+import { testimonialData } from "../../../constants/data";
 import TestimonialCarousel from "../TestimonialCarousel.vue";
 
 const { title, subTitle, modelImg, slider } = testimonialData;

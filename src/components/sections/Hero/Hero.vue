@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from "vue";
-import { useAnimate } from "../../composables/useAnimate";
-import { heroData } from "../../constants/data";
-import Header from "../Header.vue";
+import { useAnimate } from "../../../composables/useAnimate";
+import { heroData } from "../../../constants/data";
+import Header from "./Header.vue";
 
 const { title, preTitle, subTitle, btnText } = heroData;
 const el = ref();

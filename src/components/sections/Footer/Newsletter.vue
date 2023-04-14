@@ -1,5 +1,5 @@
 <script setup>
-import { newsletterData } from "../constants/data";
+import { newsletterData } from "../../../constants/data";
 
 const { title, subTitle, btnText, placeholder } = newsletterData;
 </script>

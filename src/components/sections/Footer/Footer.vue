@@ -1,9 +1,9 @@
 <script setup>
-import Copyright from "../Copyright.vue";
-import Newsletter from "../Newsletter.vue";
-import SocialIcons from "../SocialIcons.vue";
+import Copyright from "./Copyright.vue";
+import Newsletter from "./Newsletter.vue";
+import Social from "../Social.vue";
 
-import { footerData } from "../../constants/data";
+import { footerData } from "../../../constants/data";
 
 const { contact, hours, social } = footerData;
 </script>
@@ -63,7 +63,7 @@ const { contact, hours, social } = footerData;
             >
               {{ social.title }}
             </div>
-            <SocialIcons />
+            <Social />
           </div>
         </div>
         <!-- copyright -->

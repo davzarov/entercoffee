@@ -1,17 +1,21 @@
+import EnterCoffeeLogo from "../assets/img/header/logo.png";
+
 import AboutImg from "../assets/img/about/cup.png";
 
 import ModelWhiteImg from "../assets/img/model-white.png";
 import ModelBlackImg from "../assets/img/model-black.png";
 
 // menu items
-import MenuImg1 from "../assets/img/menu/espresso.png";
-import MenuImg2 from "../assets/img/menu/americano.png";
-import MenuImg3 from "../assets/img/menu/capuccino.png";
-import MenuImg4 from "../assets/img/menu/mocca.png";
+import espresso from "../assets/img/menu/espresso.png";
+import americano from "../assets/img/menu/americano.png";
+import capuccino from "../assets/img/menu/capuccino.png";
+import mocca from "../assets/img/menu/mocca.png";
 
+// team items
 import SignatureImg from "../assets/img/team/signature.png";
 import ChefImg from "../assets/img/team/chef.png";
 
+// testimonial items
 import Avatar1 from "../assets/img/testimonial/avatar1.png";
 import Avatar2 from "../assets/img/testimonial/avatar2.png";
 import Avatar3 from "../assets/img/testimonial/avatar3.png";
@@ -49,25 +53,25 @@ export const menuData = {
   btnText: "ver menú completo",
   menuItems: [
     {
-      image: MenuImg1,
+      image: espresso,
       name: "Espresso",
       price: "Gs 10.000",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
     {
-      image: MenuImg2,
+      image: americano,
       name: "Americano",
       price: "Gs 12.000",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
     {
-      image: MenuImg3,
+      image: capuccino,
       name: "Capuccino",
       price: "Gs 15.000",
       description: "Class aptent taciti ciosqu litora torquent per",
     },
     {
-      image: MenuImg4,
+      image: mocca,
       name: "Mocca",
       price: "Gs 17.000",
       description: "Class aptent taciti ciosqu litora torquent per",
@@ -78,8 +82,8 @@ export const menuData = {
 export const teamData = {
   preTitle: "nuestro equipo",
   title: "conozca a nuestro chef",
-  sub1: "Ser una cafetería distinguida por sus altos estándares de calidad, servicio y sabor, al igual que comprometernos día a día en brindar una excelente experiencia al cliente.",
-  sub2: "Estar presentes en el proceso de la vida laboral del cliente brindándole la comodidad y el agrado culinario.",
+  sub1: "Ser una cafetería distinguida por sus altos estándares de calidad, servicio y sabor, al igual que comprometernos día a día en brindar una excelente experiencia al cliente. Estar presentes en el proceso de la vida laboral del cliente brindándole la comodidad y el agrado culinario.",
+  sub2: "",
   name: "juan perez",
   occupation: "chef ejecutivo",
   signatureImg: SignatureImg,
@@ -160,4 +164,4 @@ export const footerData = {
   },
 };
 
-export { ModelBlackImg, ModelWhiteImg };
+export { EnterCoffeeLogo, ModelBlackImg, ModelWhiteImg };
