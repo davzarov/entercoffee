@@ -56,25 +56,25 @@ export const menuData = {
       image: espresso,
       name: "Espresso",
       price: "Gs 10.000",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "30 ml de Espresso",
     },
     {
       image: americano,
       name: "Americano",
       price: "Gs 12.000",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "60ml de Espresso doble  + Agua Caliente",
     },
     {
       image: capuccino,
       name: "Capuccino",
       price: "Gs 15.000",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "30 ml de Espresso + 150 ml de leche y espuma",
     },
     {
       image: mocca,
       name: "Mocca",
       price: "Gs 17.000",
-      description: "Class aptent taciti ciosqu litora torquent per",
+      description: "30 ml de Espresso + jarabe de chocolate",
     },
   ],
 };
@@ -97,21 +97,21 @@ export const testimonialData = {
   slider: [
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        '"¡Me encanta trabajar en este espacio coworking! Las mesas son muy cómodas y el internet es súper veloz, lo que me permite ser más productivo en mi trabajo. Además, la sala de reuniones es perfecta para cuando necesito tener una reunión con mis clientes. ¡Definitivamente recomiendo este lugar!"',
       image: Avatar1,
       name: "Rick Thompson",
       occupation: "CEO of Delightful",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        '"El servicio al cliente en este espacio coworking es excepcional. Siempre son muy amables y serviciales, lo que hace que trabajar aquí sea una experiencia aún mejor. Además, las instalaciones están siempre limpias y ordenadas. ¡Definitivamente regresaré!"',
       image: Avatar2,
       name: "John Doe",
       occupation: "CEO of Delightful",
     },
     {
       message:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas ipsum eius voluptatibus. Quod ipsum ullam id facere a beatae incidunt eaque, veritatis architecto cum perferendis debitis tempora.",
+        '"La cafetería de este espacio coworking es mi lugar favorito para tomar un café y trabajar en mi laptop. Las bebidas son deliciosas y los postres son irresistibles. Además, el ambiente es muy acogedor y tranquilo, lo que me permite concentrarme mejor en mi trabajo. ¡No hay otro lugar como este en la ciudad!"',
       image: Avatar3,
       name: "Henry A.",
       occupation: "CEO of Delightful",
