@@ -6,6 +6,7 @@ import Team from "./sections/Team.vue";
 import Reservation from "./sections/Reservation.vue";
 import Footer from "./sections/Footer/Footer.vue";
 import ScrollTop from "./ScrollTop.vue";
+import Testimonial from "./sections/Testimonial/Testimonial.vue";
 
 const initialLoading = async () => {
   await new Promise((resolve) => {
@@ -23,6 +24,7 @@ await initialLoading();
     <About />
     <Menu />
     <Team />
+    <Testimonial />
     <Reservation />
     <Footer />
     <ScrollTop />

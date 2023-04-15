@@ -62,7 +62,7 @@ watchEffect(() => {
         <div
           :class="[
             !open ? 'hidden' : '',
-            'absolute bottom-0 right-0 top-[120px] z-50 h-[50vh] w-[310px] rounded-lg bg-accent shadow-xl lg:left-0',
+            'absolute bottom-0 right-0 top-[120px] z-50 h-[50vh] w-[310px] rounded-lg bg-accent shadow lg:left-0',
           ]"
         >
           <Nav v-if="open" />

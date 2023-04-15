@@ -1,7 +1,7 @@
 <script setup>
 import { menuData } from "../../constants/data";
 
-const { title, subTitle, modelImg, menuItems, btnText } = menuData;
+const { title, modelImg, menuItems, btnText } = menuData;
 </script>
 
 <template>
@@ -11,12 +11,12 @@ const { title, subTitle, modelImg, menuItems, btnText } = menuData;
     <!-- text -->
     <div class="relative top-72 z-10 lg:top-52">
       <div class="container mx-auto flex flex-col items-center text-center">
-        <h2 class="h2 max-w-[400px] text-center capitalize text-white">
+        <h2 class="h2 mb-8 max-w-[400px] text-center capitalize text-white">
           {{ title }}
         </h2>
-        <p class="mb-8 capitalize text-white/70">
+        <!-- <p class="mb-8 capitalize text-white/70">
           {{ subTitle }}
-        </p>
+        </p> -->
         <div>
           <img :src="modelImg" alt="" />
         </div>

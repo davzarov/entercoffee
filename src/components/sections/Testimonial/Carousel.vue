@@ -1,21 +1,31 @@
 <script setup>
-import { Carousel, Slide } from "vue3-carousel";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Autoplay } from "swiper";
+import "swiper/css";
+
 defineProps({
   slider: {
     type: Object,
     required: true,
   },
 });
+
+const modules = [Autoplay];
 </script>
 
 <template>
-  <Carousel
-    :autoplay="3000"
-    :wrap-around="true"
-    :pause-autoplay-on-hover="true"
+  <Swiper
+    :modules="modules"
+    :loop="true"
+    :pagination="{ clickable: true }"
+    :autoplay="{
+      delay: 3000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    }"
     class="flex w-full max-w-[1024px] items-center justify-center"
   >
-    <Slide v-for="slide in slider" :key="slide">
+    <SwiperSlide v-for="slide in slider" :key="slide">
       <div class="mx-auto max-w-[840px] px-24 text-white">
         <div class="mb-9 text-lg leading-snug lg:text-2xl">
           {{ slide.message }}
@@ -26,6 +36,6 @@ defineProps({
         <div class="text-[22px] font-bold text-accent">{{ slide.name }}</div>
         <div class="font-medium italic">{{ slide.occupation }}</div>
       </div>
-    </Slide>
-  </Carousel>
+    </SwiperSlide>
+  </Swiper>
 </template>

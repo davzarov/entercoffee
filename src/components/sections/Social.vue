@@ -1,9 +1,5 @@
 <script setup>
-import {
-  AkYoutubeFill,
-  AkFacebookFill,
-  AkInstagramFill,
-} from "@kalimahapps/vue-icons";
+import { Icon } from "@iconify/vue";
 </script>
 
 <template>
@@ -12,19 +8,19 @@ import {
       class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-white text-sm transition-all hover:border-accent hover:text-accent"
       href="#"
     >
-      <AkYoutubeFill />
+      <Icon icon="bi:youtube" />
     </a>
     <a
       class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-white text-sm transition-all hover:border-accent hover:text-accent"
       href="#"
     >
-      <AkFacebookFill />
+      <Icon icon="bi:instagram" />
     </a>
     <a
       class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-white text-sm transition-all hover:border-accent hover:text-accent"
       href="#"
     >
-      <AkInstagramFill />
+      <Icon icon="bi:facebook" />
     </a>
   </div>
 </template>
