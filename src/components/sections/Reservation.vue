@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import { BsCalendar, BsClock, BsEnvelope } from "@kalimahapps/vue-icons";
 import VueDatePicker from "@vuepic/vue-datepicker";
 import "@vuepic/vue-datepicker/dist/main.css";
 
@@ -41,6 +42,7 @@ const startTime = ref({
             <div
               class="mb-3 flex items-center gap-x-[10px] text-base font-semibold text-dark"
             >
+              <BsCalendar />
               <div>Elige una fecha</div>
             </div>
             <VueDatePicker
@@ -49,6 +51,7 @@ const startTime = ref({
               :enable-time-picker="false"
               select-text="Ok"
               cancel-text="Cerrar"
+              hide-input-icon
               input-class-name="input"
             />
           </div>
@@ -57,6 +60,7 @@ const startTime = ref({
             <div
               class="mb-3 flex items-center gap-x-[10px] text-base font-semibold text-dark"
             >
+              <BsClock />
               <div>Elige la hora</div>
             </div>
             <VueDatePicker
@@ -65,6 +69,7 @@ const startTime = ref({
               select-text="Ok"
               cancel-text="Cerrar"
               time-picker
+              hide-input-icon
               input-class-name="input"
             />
           </div>
@@ -73,6 +78,7 @@ const startTime = ref({
             <div
               class="mb-3 flex items-center gap-x-[10px] text-base font-semibold text-dark"
             >
+              <BsEnvelope />
               <div>Correo electrónico</div>
             </div>
             <input

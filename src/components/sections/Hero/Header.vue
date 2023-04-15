@@ -22,7 +22,9 @@ watchEffect(() => {
 </script>
 
 <template>
-  <header class="fixed z-50 w-full max-w-[1800px] bg-pink-200/20 py-4">
+  <header
+    class="fixed z-50 w-full max-w-[1800px] bg-dark/20 py-2 backdrop-blur"
+  >
     <div class="container mx-auto">
       <div
         class="relative flex items-center justify-between px-4 text-white lg:px-0"
@@ -31,9 +33,9 @@ watchEffect(() => {
         <div
           :class="[
             open ? 'gap-y-0' : 'gap-y-2',
-            'order-2 flex h-12 w-12 cursor-pointer flex-col items-center justify-center rounded-full border-2 p-3 lg:order-none',
+            'order-2 flex h-12 w-12 cursor-pointer flex-col items-center justify-center rounded-full border-2 border-white p-3 lg:order-none',
           ]"
-          @click="toggleOpen()"
+          @click="toggleOpen"
         >
           <!-- bar 1 -->
           <div :class="[open ? '' : '', 'h-[2px] w-full bg-white']"></div>
@@ -59,7 +61,7 @@ watchEffect(() => {
         <!-- nav -->
         <div
           :class="[
-            open ? '' : 'hidden',
+            !open ? 'hidden' : '',
             'absolute bottom-0 right-0 top-[120px] z-50 h-[50vh] w-[310px] rounded-lg bg-accent shadow-xl lg:left-0',
           ]"
         >

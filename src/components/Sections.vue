@@ -5,6 +5,7 @@ import Menu from "./sections/Menu.vue";
 import Team from "./sections/Team.vue";
 import Reservation from "./sections/Reservation.vue";
 import Footer from "./sections/Footer/Footer.vue";
+import ScrollTop from "./ScrollTop.vue";
 
 const initialLoading = async () => {
   await new Promise((resolve) => {
@@ -24,6 +25,7 @@ await initialLoading();
     <Team />
     <Reservation />
     <Footer />
+    <ScrollTop />
     <div class="h-[380px] md:h-[370px]"></div>
   </div>
 </template>
