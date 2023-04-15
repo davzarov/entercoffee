@@ -3,7 +3,7 @@ import Copyright from "./Copyright.vue";
 import Newsletter from "./Newsletter.vue";
 import Social from "../Social.vue";
 
-import { footerData } from "../../../constants/data";
+import { footerData } from "@/constants/data";
 
 const { contact, hours, social } = footerData;
 </script>

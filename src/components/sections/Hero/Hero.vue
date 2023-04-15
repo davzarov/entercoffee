@@ -1,5 +1,5 @@
 <script setup>
-import { heroData } from "../../../constants/data";
+import { heroData } from "@/constants/data";
 import Header from "./Header.vue";
 
 const { title, preTitle, subTitle, btnText } = heroData;

@@ -1,5 +1,5 @@
 <script setup>
-import { teamData } from "../../constants/data";
+import { teamData } from "@/constants/data";
 
 const { preTitle, title, sub1, sub2, name, occupation, signatureImg, chefImg } =
   teamData;

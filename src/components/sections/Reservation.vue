@@ -4,7 +4,7 @@ import { Icon } from "@iconify/vue";
 import VueDatePicker from "@vuepic/vue-datepicker";
 import "@vuepic/vue-datepicker/dist/main.css";
 
-import { reservationData } from "../../constants/data";
+import { reservationData } from "@/constants/data";
 
 const { title, subTitle, modelImg, btnText } = reservationData;
 const startDate = ref(new Date());

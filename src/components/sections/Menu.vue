@@ -1,5 +1,5 @@
 <script setup>
-import { menuData } from "../../constants/data";
+import { menuData } from "@/constants/data";
 
 const { title, modelImg, menuItems, btnText } = menuData;
 </script>

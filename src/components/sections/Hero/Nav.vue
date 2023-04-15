@@ -1,6 +1,6 @@
 <script setup>
-import { navData } from "../../../constants/data";
-import { navigateTo } from "../../../utils/navigateTo";
+import { navData } from "@/constants/data";
+import { navigateTo } from "@/utils/navigateTo";
 </script>
 
 <template>

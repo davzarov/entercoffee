@@ -1,5 +1,5 @@
 <script setup>
-import { aboutData } from "../../constants/data";
+import { aboutData } from "@/constants/data";
 
 const { preTitle, title, subTitle, btnText, image } = aboutData;
 </script>
